@@ -4,7 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Site Title -->
   <title>Select Courses | AOU Study Tracker</title>
+  
+  <!-- SEO Metadata -->
+  <meta name="description" content="Personalize your AOU Study Tracker by selecting the courses you are enrolled in this semester." />
+  <meta name="keywords" content="Course Selection, AOU, Student Portal, Study Plan" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  
+  <!-- Stylesheets & Fonts -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <style>
@@ -62,6 +73,7 @@
 
   </main>
 
+  <!-- JavaScript logic for course selection and persistence -->
   <script>
     let allCourses = [];
     let selectedIds = new Set();

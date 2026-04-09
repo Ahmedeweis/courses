@@ -4,7 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Site Title -->
   <title>Long Questions | AOU Study Tracker</title>
+  
+  <!-- SEO Metadata -->
+  <meta name="description" content="Prepare for essay-style exams with detailed long questions and expert answers." />
+  <meta name="keywords" content="Long Questions, Essay Questions, Exam Preparation, AOU" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  
+  <!-- Stylesheets & Fonts -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <style>
@@ -65,6 +76,7 @@
 
   </main>
 
+  <!-- JavaScript logic for fetching and rendering questions -->
   <script>
     const urlParams = new URLSearchParams(window.location.search);
     const courseId = urlParams.get('id');

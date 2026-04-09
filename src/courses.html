@@ -4,7 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Site Title -->
   <title>My Courses | AOU Study Tracker</title>
+  
+  <!-- SEO Metadata -->
+  <meta name="description" content="Manage your semester courses and track your acadmic progress on AOU Study Tracker." />
+  <meta name="keywords" content="AOU Courses, Semester Tracking, Study Progress" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  
+  <!-- Stylesheets & Fonts -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
@@ -92,6 +103,7 @@
 
   </main>
 
+  <!-- JavaScript logic to load and display enrolled courses -->
   <script>
     async function init() {
       const grid = document.getElementById('coursesGrid');

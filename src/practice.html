@@ -4,7 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Site Title -->
   <title>Practice Questions | AOU Study Tracker</title>
+  
+  <!-- SEO Metadata -->
+  <meta name="description" content="Test your knowledge and practice for exams with our MCQ and long question banks." />
+  <meta name="keywords" content="Practice, Exam Prep, MCQ, Long Questions" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  
+  <!-- Stylesheets & Fonts -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
@@ -129,6 +140,7 @@
 
   </main>
 
+  <!-- JavaScript logic for fetching course data and updating links -->
   <script>
     async function initPractice() {
       const urlParams = new URLSearchParams(window.location.search);
