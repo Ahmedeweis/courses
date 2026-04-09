@@ -2,7 +2,7 @@
   "name": "tailwind-project",
   "version": "1.0.0",
 "scripts": {
-  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+  "build": "mkdir -p public && npx tailwindcss -i ./src/input.css -o ./public/output.css --minify && cp src/*.html public/ && cp -r src/data public/ && cp -r src/img public/"
 },
   "devDependencies": {
     "autoprefixer": "^10.0.0",
